@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: anchore/sbom-action@v0.3.0
         with:
-          image: yewnorosen/rkvst-sbom:latest
+          image: mwilder26/rkvst-sbom:latest
           format: cyclonedx
           
   publish-sbom:
