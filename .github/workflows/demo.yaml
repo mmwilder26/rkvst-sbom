@@ -24,5 +24,5 @@ jobs:
            CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
          with:
            command: release
-           asset_id: assets/8477ddbd-3af2-434a-83ec-18c0bb3bd956
-           attachments: '["yewnorosen-rkvst-sbom_latest.cyclonedx/yewnorosen-rkvst-sbom_latest.cyclonedx"]'
+           asset_id: assets/650fcc21-4d7c-43c1-a59e-37ce8f0ab1bb
+           attachments: '["mwilder26-rkvst-sbom_latest.cyclonedx/mwilder26-rkvst-sbom_latest.cyclonedx"]'
