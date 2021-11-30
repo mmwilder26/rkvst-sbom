@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
        - uses: actions/download-artifact@v2
-       - uses: mmwilder26/rkvst-sbom@v0.a.1
+       - uses: mmwilder26/rkvst-sbom@v0.a.2
          env:
            CLIENT_ID: ${{ secrets.CLIENT_ID }}
            CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
