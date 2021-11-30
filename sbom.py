@@ -45,7 +45,7 @@ def main():
     print("Token Generated")
     
     arch = archivist.Archivist(
-        "https://poc.rkvst.io",
+        "https://app.rkvst-poc.io",
         auth=authtoken,
         )
     
