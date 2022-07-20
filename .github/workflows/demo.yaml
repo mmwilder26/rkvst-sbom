@@ -18,11 +18,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
        - uses: actions/download-artifact@v2
-       - uses: mmwilder26/rkvst-sbom@v0.a.3
+       - uses: mmwilder26/rkvst-sbom@v0.c.1
          env:
            CLIENT_ID: ${{ secrets.CLIENT_ID }}
            CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
          with:
            command: release
-           asset_id: assets/650fcc21-4d7c-43c1-a59e-37ce8f0ab1bb
+           asset_id: assets/edb1ed65-a6b3-42e0-ae65-55a8bd7e92f6
            attachments: '["mwilder26-rkvst-sbom_latest.cyclonedx/mwilder26-rkvst-sbom_latest.cyclonedx"]'
