@@ -25,7 +25,7 @@ def generate_token():
     }
 
     print("Generating Token")
-    token_request = requests.post("https://app.rkvst-poc.io/archivist/iam/v1/appidp/token", headers=headers, data=params).json()
+    token_request = requests.post("https://app.rkvst.io/archivist/iam/v1/appidp/token", headers=headers, data=params).json()
 
     return token_request.get("access_token")
     
@@ -45,7 +45,7 @@ def main():
     print("Token Generated")
     
     arch = archivist.Archivist(
-        "https://app.rkvst-poc.io",
+        "https://app.rkvst.io",
         auth=authtoken,
         )
     
